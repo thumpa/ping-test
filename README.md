@@ -10,5 +10,5 @@ The full script will also displ;ay information about the device from which the s
 
 ## Usage
 
-`sh pingTest.sh` shows device info and ping test results
-`sh pingTest.sh -l` limits the output to only the ping test results
+- `sh pingTest.sh` shows device info and ping test results
+- `sh pingTest.sh -l` limits the output to only the ping test results

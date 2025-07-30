@@ -1,0 +1,2 @@
+# Exclude ping test result files
+PingTest_*.txt

@@ -1,0 +1,32 @@
+{
+    "cSpell.words": [
+        "getairportnetwork",
+        "getifaddr",
+        "getline",
+        "getoption",
+        "iwgetid",
+        "listallhardwareports",
+        "netsh",
+        "networksetup",
+        "pingtest",
+        "proc",
+        "resolv",
+        "testmyping",
+        "vers",
+        "wifi",
+        "wlan"
+    ],
+
+// In your settings.json
+"markdown.extension.toc.omittedFromToc": {
+  // Use a path relative to your workspace.
+    "README.md": [
+        "# ping-test",
+        "## Table of Contents",
+    ]
+  // Or an absolute path for standalone files.
+  // "/home/foo/Documents/todo-list.md": [
+    // "## Shame list (I'll never do these)",
+  //]
+}
+}

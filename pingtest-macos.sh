@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# ============================================
+# CONFIGURATION - Customize your ping tests
+# ============================================
+# Add or remove websites/IPs to test:
+websites=("1.1.1.1" "8.8.8.8" "google.com" "testmyping.com" "github.com")
+# Number of ping packets per site:
+ping_count=5
+
 # Function to display usage information
 usage() {
     echo "Usage: $0 [-l]"
@@ -96,9 +104,7 @@ if [ -z "$skip_info" ]; then
     gather_device_info
 fi
 
-# List of websites to ping
-websites=("1.1.1.1" "8.8.8.8" "google.com" "testmyping.com" "github.com")  # Add your desired websites here
-ping_count=5 # Set number of pings per site
+# List of websites to ping (configured at top of script)
 
 for site in "${websites[@]}"; do
     echo "Pinging $site..." | tee -a "$default_filename"
